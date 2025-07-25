@@ -15,7 +15,7 @@
         "product_yAjcV6": {
           "type": "product",
           "settings": {
-            "product": "volufiline-100"
+            "product": "volufiline"
           }
         }
       },
@@ -139,20 +139,21 @@
     },
     "review_slider_rwyybB": {
       "type": "review-slider",
-      "blocks": {
-       
-      },
-    
       "name": "Review Slider",
       "settings": {}
     },
     "banner_melatonic_image_aqYLmV": {
       "type": "banner-volufiline-image",
       "blocks": {
-       
+        "product_YPgHCN": {
+          "type": "product",
+          "settings": {
+            "product": "volufiline"
+          }
+        }
       },
       "block_order": [
-        "product_98RDxh"
+        "product_YPgHCN"
       ],
       "name": "Banner only image",
       "settings": {}
