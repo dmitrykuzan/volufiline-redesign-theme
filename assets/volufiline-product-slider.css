@@ -193,3 +193,12 @@
     aspect-ratio: initial;
   }
 }
+
+.volufiline-product-slider__image-big img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain !important;
+  image-rendering: auto;
+}
