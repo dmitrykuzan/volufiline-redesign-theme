@@ -47,7 +47,7 @@
           "settings": {
             "heading": "BENEFITS",
             "icon": "none",
-            "content": "<p>Plumps and firms the appearance of skin for a fuller, more youthful look<br/><br/>Visibly reduces the look of fine lines, wrinkles, and volume loss<br/><br/>Enhances skin elasticity and smoothness over time<br/><br/>Targets hollow areas like under eyes and nasolabial folds for a lifted effect</p>",
+            "content": "<ul><li>Plumps and firms the appearance of skin for a fuller, more youthful look</li><li>Visibly reduces the look of fine lines, wrinkles, and volume loss</li><li>Enhances skin elasticity and smoothness over time</li><li>Targets hollow areas like under eyes and nasolabial folds for a lifted effect</li></ul>",
             "page": ""
           }
         },
@@ -56,7 +56,7 @@
           "settings": {
             "heading": "APPLICATION",
             "icon": "none",
-            "content": "<p>Volufiline is a lightweight serum designed for easy, targeted volume.<br/><br/>- Gently wash your face and pat dry to ensure skin is clean and ready for absorption.<br/><br/><br/>- Using clean fingertips, apply a small amount to targeted areas—such as under eyes, smile lines, or cheeks.<br/><br/><br/>- Allow the serum to fully absorb before applying other skincare or makeup. Use once or twice daily for best results.</p>",
+            "content": "<p>Volufiline is a lightweight serum designed for easy, targeted volume.</p><ul><li>Gently wash your face and pat dry to ensure skin is clean and ready for absorption.</li><li>Using clean fingertips, apply a small amount to targeted areas, such as under eyes, smile lines, or cheeks.</li><li>Allow the serum to fully absorb before applying other skincare or makeup. Use once or twice daily for best results.</li></ul>",
             "page": ""
           }
         },
@@ -65,7 +65,7 @@
           "settings": {
             "heading": "KEY INGREDIENTS",
             "icon": "none",
-            "content": "<p>Key Ingredients:<br/> Anemarrhena Asphodeloides Root Extract <br/>Clinically known to help visibly plump and firm targeted areas by promoting volume where applied.<br/><br/>Centella Asiatica Extract<br/>A powerful botanical that helps soothe, repair, and strengthen the skin barrier while reducing redness.<br/><br/>Tocopherol (Vitamin E)<br/>An antioxidant that supports skin healing and helps protect against free radical damage.<br/><br/>Panthenol (Pro-Vitamin B5)<br/>A moisturizing agent that helps hydrate, calm, and improve skin texture over time.</p>",
+            "content": "<ul><li>Anemarrhena Asphodeloides Root Extract <br/>Clinically known to help visibly plump and firm targeted areas by promoting volume where applied.</li><li>Centella Asiatica Extract<br/>A powerful botanical that helps soothe, repair, and strengthen the skin barrier while reducing redness.</li><li>Tocopherol (Vitamin E)<br/>An antioxidant that supports skin healing and helps protect against free radical damage.</li><li>Panthenol (Pro-Vitamin B5)<br/>A moisturizing agent that helps hydrate, calm, and improve skin texture over time.</li></ul>",
             "page": ""
           }
         }
