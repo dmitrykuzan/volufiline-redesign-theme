@@ -9,7 +9,12 @@
         {%- if media.media_type == 'image' -%}
           <div class="swiper-slide">
             <div class="volufiline-product-slider__image-big">
-              {{ media | image_url: width: 800 | image_tag: loading: 'lazy', alt: media.alt | escape }}
+              {{
+                media
+                | image_url: width: 2048
+                | image_tag: loading: 'lazy', widths: '800,1024,1600,2048', alt: media.alt
+                | escape
+              }}
             </div>
           </div>
           {%- assign media_counter = media_counter | plus: 1 -%}
@@ -17,7 +22,7 @@
       {%- endfor -%}
     </div>
 
-    <div class="volufiline-product-slider__pagination"></div> 
+    <div class="volufiline-product-slider__pagination"></div>
   </div>
 
   <!-- (thumbs) -->
@@ -37,7 +42,6 @@
     </div>
   </div>
 </div>
-
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
