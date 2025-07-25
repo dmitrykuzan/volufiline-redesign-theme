@@ -180,50 +180,57 @@
         "faq_item_Kif3d6": {
           "type": "faq_item",
           "settings": {
-            "title": "How long does it take to see results?",
-            "text": "<p>Most users notice reduced shedding and early signs of regrowth (like baby hairs) within 2–4 weeks. Fuller, visibly denser hair can take 6–8 weeks with consistent use.</p>"
+            "title": "What is Volufiline?",
+            "text": "<p>Volufiline is a cosmetic ingredient that helps improve skin volume and firmness. It works by encouraging fat storage in the area it’s applied, giving a fuller, plumper appearance over time.</p>"
           }
         },
         "faq_item_wpkMqj": {
           "type": "faq_item",
           "settings": {
-            "title": "Is Melatonic permanent?",
-            "text": "<p>While Melatonic supports long-term hair health, results are maintained with ongoing use. Like most topical treatments, hair may gradually revert if usage stops.</p><p></p>"
+            "title": "Where can I use it?",
+            "text": "<p>Most people apply Volufiline around the eyes, lips, cheeks, or nasolabial folds — anywhere that’s lost volume or looks hollow. It’s for external use only.</p>"
           }
         },
         "faq_item_iC3Wfb": {
           "type": "faq_item",
           "settings": {
-            "title": "Does topical melatonin make you tired?",
-            "text": "<p>Nope — applying melatonin to the scalp doesn’t cause drowsiness. It stays local to the skin and doesn’t affect your sleep cycle.<br/><br/></p>"
+            "title": "How long does it take to see results?",
+            "text": "<p>Results vary, but many users notice visible plumping within 4 to 8 weeks of consistent use, with best results after 2 to 3 months.</p>"
           }
         },
         "faq_item_c7eBCh": {
           "type": "faq_item",
           "settings": {
-            "title": "Is it safe for sensitive scalps?",
-            "text": "<p>Melatonic is formulated to be gentle and non-irritating. However, if you have a history of scalp sensitivity, we recommend patch testing before full use.<br/><br/></p>"
+            "title": "Is Volufiline permanent?",
+            "text": "<p>No, results are not permanent. Continued use is needed to maintain the plumping effect. If you stop using it, the effects will gradually fade.</p>"
           }
         },
         "faq_item_fRXGzV": {
           "type": "faq_item",
           "settings": {
-            "title": "Does it really work?",
-            "text": "<p>Melatonic combines topical melatonin with proven plant extracts to support hair density, reduce shedding, and stimulate regrowth — backed by real customer results.<br/><br/></p>"
+            "title": "How often should I apply it?",
+            "text": "<p>Once or twice daily is recommended — typically in the morning and at night on clean skin.</p>"
           }
         },
         "faq_item_iwTWnq": {
           "type": "faq_item",
           "settings": {
-            "title": "Will it make my hair greasy?",
-            "text": "<p>No. Melatonic is fast-absorbing and water-based — no residue and no greasy feel.<br/><br/></p>"
+            "title": "Can I use it with other skincare products?",
+            "text": "<p>Yes. Apply Volufiline before heavier creams or oils, ideally after cleansing and toning.</p>"
+          }
+        },
+        "faq_item_cajiy4": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does it really work?",
+            "text": "<p>Many users report visible improvements in volume and skin texture. Like any cosmetic product, individual results can vary based on skin type, age, and consistency.</p>"
           }
         },
         "faq_item_9FHWqn": {
           "type": "faq_item",
           "settings": {
-            "title": "Does it work for men and women?",
-            "text": "<p>Yes, it’s designed to be effective and safe for all genders dealing with hair thinning or loss.<br/><br/></p>"
+            "title": "Is it safe for sensitive skin?",
+            "text": "<p>Volufiline is generally well-tolerated, but if you have sensitive skin, do a patch test first. If irritation occurs, discontinue use.</p>"
           }
         }
       },
@@ -234,6 +241,7 @@
         "faq_item_c7eBCh",
         "faq_item_fRXGzV",
         "faq_item_iwTWnq",
+        "faq_item_cajiy4",
         "faq_item_9FHWqn"
       ],
       "name": "FAQ Section (with image)",
