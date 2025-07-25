@@ -74,7 +74,7 @@
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"
+            class="product-form__submit  {% if show_dynamic_checkout %}button--secondary{% else %}button--primary-volufiline button-dark{% endif %}"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
@@ -82,14 +82,31 @@
               disabled
             {% endif %}
           >
+            {% comment %}
+              <span>
+                {%- if product.selected_or_first_available_variant == null -%}
+                  {{ 'products.product.unavailable' | t }}
+                {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- else -%}
+                  {{ 'products.product.add_to_cart' | t }}
+                {%- endif -%}
+              </span>
+            {% endcomment %}
             <span>
-              {%- if product.selected_or_first_available_variant == null -%}
-                {{ 'products.product.unavailable' | t }}
-              {%- elsif product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
-                {{ 'products.product.sold_out' | t }}
-              {%- else -%}
-                {{ 'products.product.add_to_cart' | t }}
-              {%- endif -%}
+              {% assign variant = product.selected_or_first_available_variant %}
+
+              BUY VOLUFILINE‎ ‎
+
+              <span class="product-price-current">
+                {{ variant.price | money }}
+              </span>
+
+              {% if variant.compare_at_price > variant.price %}
+                <span class="product-price-compare">
+                  {{ variant.compare_at_price | money }}
+                </span>
+              {% endif %}
             </span>
             {%- render 'loading-spinner' -%}
           </button>

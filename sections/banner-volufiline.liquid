@@ -1,0 +1,88 @@
+ {{ 'banner-volufiline.css' | asset_url | stylesheet_tag }}
+
+<section class="banner-volufiline page-width">
+  <div class="banner-volufiline__wrapper">
+    <div class="banner-volufiline__image">
+     <img
+        class="banner-volufiline-banner-logo"
+        src="{{ 'banner-logo.png' | asset_url }}"
+        width="126"
+        height="126"
+        alt="banner logo"
+        loading="lazy"
+      > 
+
+       <img
+        class="banner-volufiline__image-img"
+        src="{{ 'banner-volufiline-img.jpg' | asset_url }}"
+        width="880"
+        height="660"
+        alt="volufiline bottle"
+        loading="lazy"
+      > 
+
+      <img
+        class="banner-volufiline__image-img-mobile"
+        src="{{ 'banner-volufiline-img-mobile.jpg' | asset_url }}"
+        width="2544"
+        height="3393"
+        alt="volufiline bottle"
+        loading="lazy"
+      > 
+
+        {% assign product = all_products['volufiline-100'] %}
+
+      <a href="{{ product.url }}" class="button-dark banner-volufiline__banner-btn" >25% OFF TODAY</a>
+    </div>
+
+    <div class="banner-volufiline__content">
+      <div class="banner-volufiline__text">
+        <h2 class="banner-volufiline__title">Volufiline 100%</h2>
+        <p class="banner-volufiline__price">
+          Enhances volume and plumps skin
+        </p>
+      </div>
+      <div class="banner-volufiline__benefits">
+        <span>Volumize.</span>
+        <span>Tighten.</span>
+        <span>Restore.</span>
+      </div>
+
+      {% for block in section.blocks %}
+        {% if block.type == 'product' and block.settings.product %}
+          {% assign product = block.settings.product %}
+          <a class="banner-volufiline__link button-dark" href="{{ product.url }}">GRAB A BOTTLE</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner with text",
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product link",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with text",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %} 

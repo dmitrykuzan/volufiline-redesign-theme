@@ -1,0 +1,59 @@
+{{ 'banner-result.css' | asset_url | stylesheet_tag }}
+
+<section class="banner-result banner-compound page-width">
+  <div class="banner-result__wrapper banner-compound__wrapper">
+    <div class="banner-result__image">
+       <img
+        src="{{ 'banner-compound.jpg' | asset_url }}"
+        width="860"
+        height="860"
+        alt="Volufiline poster"
+        loading="lazy"
+      > 
+    </div>
+
+    <div class="banner-result__content">
+      <div class="banner-compound__content-wrapper">
+        <h2 class="banner-compound__title section-title-volufiline">what’s inside</h2>
+
+        <div class="banner-compound__text">
+          <p>Get to know the ingredients that help restore volume, smooth fine lines, and support firmer, fuller looking skin.</p>
+        </div>
+
+        <ul class="banner-compound__list">
+          <li class="banner-compound__item">
+            <h3 class="banner-compound__item-title">Anemarrhena Asphodeloides Root Extract</h3>
+            <p class="banner-compound__item-description">
+              A rare botanical extract that visibly plumps and firms skin by supporting natural lipid storage, especially in areas prone to hollowing.
+            </p>
+          </li>
+
+          <li class="banner-compound__item">
+            <h3 class="banner-compound__item-title">Centella Asiatica Extract</h3>
+            <p class="banner-compound__item-description">
+              a nutrient-rich oil that nourishes the scalp, supports hydration, and enhances hair softness and shine
+            </p>
+          </li>
+        </ul>
+
+        <div class="banner-compound__text">
+          <p>
+           also made with <span>Vitamin E, PRO-VITAMIN B5</span> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner compound",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Banner compound"
+    }
+  ]
+}
+{% endschema %} 

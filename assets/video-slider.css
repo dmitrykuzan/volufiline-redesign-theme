@@ -1,0 +1,124 @@
+.video-slider {
+  .swiper-slide {
+    transform: scale(0.9);
+    transition: transform 0.3s linear;
+  }
+
+  .swiper-slide-active {
+    transform: scale(1);
+  }
+}
+
+.video-slider__titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.video-slider__titles >* {
+  margin: initial;
+}
+
+
+.video-slider__wrapper {
+  margin-top: 3rem;
+}
+
+.video-slider__slide {
+  position: relative;
+  display: flex;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.video-slider__video {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  object-fit: cover;
+  max-height: 45rem;
+  cursor: grab;
+}
+
+.video-slider__slide-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: initial;
+  outline: none;
+  border: initial;
+  cursor: pointer;
+  transition: opacity 0.3s linear;
+}
+
+.video-slider__slide-button.playing {
+  opacity: 0.3;
+}
+
+.video-slider__swiper {
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+}
+
+
+@media screen and (min-width: 750px) {
+  .video-slider__wrapper {
+    width: 100%;
+    margin-left: initial;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .video-slider__titles {
+    grid-gap: 2.5rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .video-slider__wrapper {
+    margin-top: 5rem;
+  }
+
+  .video-slider__video {
+    max-height: 45rem;
+    border-radius: 3rem;
+  }
+
+  .video-slider__swiper {
+   margin-left: 3rem;
+   margin-right: 3rem;
+   padding-left: initial;
+   padding-right: initial;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video-slider__video {
+    max-height: 55rem;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .video-slider__swiper {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .before-after-slider__swiper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .before-after-slider__titles {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+

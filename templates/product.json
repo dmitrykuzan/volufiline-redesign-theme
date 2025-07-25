@@ -1,1 +1,279 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_shape":"circle"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["vendor","title","price","variant_picker","quantity_selector","buy_buttons","description","share"],"settings":{"enable_sticky_info":true,"color_scheme":"scheme-1","media_size":"large","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","mobile_thumbnails":"hide","media_position":"left","image_zoom":"lightbox","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"columns_mobile":"2","color_scheme":"scheme-1","image_ratio":"square","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"padding_top":36,"padding_bottom":28}}},"order":["main","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_HRKqfG": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "BENEFITS",
+            "icon": "none",
+            "content": "<ul><li>Powered by melatonin, a science backed ingredient for hair regrowth</li><li>Promotes visibly fuller, thicker hair</li><li>Calms and nourishes the scalp</li><li>Made with vegan, non-greasy oils for lightweight moisture</li><li>Boosts natural hair restoration without harsh chemicals or buildup</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GXA77C": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "APPLICATION",
+            "icon": "none",
+            "content": "<p>Melatonic is a lightweight serum designed for easy, targeted use. </p><ul><li>Apply 2-3 drops directly to the scalp, ideally at night.</li><li>Gently massage in with fingertips for even absorption.</li><li>Use consistently on clean, dry scalp for best results.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_AUEiKB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "KEY INGREDIENTS",
+            "icon": "none",
+            "content": "<p>MELATONIN — a powerful antioxidant that supports the hair growth cycle, soothes the scalp, and helps reduce shedding for fuller, thicker hair over time<br/>ARGAN OIL — rich in fatty acids and vitamin E, it deeply nourishes and hydrates the scalp while adding shine and softness to hair strands<br/>BIOTIN — a B-vitamin that helps strengthen hair at the root, supporting healthier growth and improving hair density<br/>VITAMIN C — boosts collagen production to help strengthen the scalp and improve the overall structure of growing hair.<br/>ALMOND OIL — packed with magnesium and proteins, it helps smooth hair texture, reduce breakage, and support a healthy scalp environment.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "title",
+        "description",
+        "buy_buttons",
+        "collapsible_tab_HRKqfG",
+        "collapsible_tab_GXA77C",
+        "collapsible_tab_AUEiKB"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "marquee_mn6g7p": {
+      "type": "marquee",
+      "name": "Marquee",
+      "settings": {
+        "padding_top": 35,
+        "padding_bottom": 5
+      }
+    },
+    "banner_result_r7bNhR": {
+      "type": "banner-result",
+      "name": "Banner result",
+      "settings": {}
+    },
+    "product_banner_hpKz3U": {
+      "type": "product-banner",
+      "name": "Product Banner",
+      "settings": {}
+    },
+    "video_slider_XL47WV": {
+      "type": "video-slider",
+      "blocks": {
+        "video_slide_MGJrt8": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        },
+        "video_slide_TB6wKV": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        },
+        "video_slide_Cttgct": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        },
+        "video_slide_grN3jL": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        },
+        "video_slide_JrbYkj": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        }
+      },
+      "block_order": [
+        "video_slide_MGJrt8",
+        "video_slide_TB6wKV",
+        "video_slide_Cttgct",
+        "video_slide_grN3jL",
+        "video_slide_JrbYkj"
+      ],
+      "name": "Video Review Slider",
+      "settings": {}
+    },
+    "banner_compound_43dE8r": {
+      "type": "banner-compound",
+      "name": "Banner compound",
+      "settings": {}
+    },
+    "application_slider_CExgYL": {
+      "type": "application-slider",
+      "name": "Application-slider",
+      "settings": {}
+    },
+    "faq_with_image_h6L8VQ": {
+      "type": "faq-with-image",
+      "blocks": {
+        "faq_item_Kif3d6": {
+          "type": "faq_item",
+          "settings": {
+            "title": "How long does it take to see results?",
+            "text": "<p>Most users notice reduced shedding and early signs of regrowth (like baby hairs) within 2–4 weeks. Fuller, visibly denser hair can take 6–8 weeks with consistent use.</p>"
+          }
+        },
+        "faq_item_wpkMqj": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Is Melatonic permanent?",
+            "text": "<p>While Melatonic supports long-term hair health, results are maintained with ongoing use. Like most topical treatments, hair may gradually revert if usage stops.</p><p></p>"
+          }
+        },
+        "faq_item_iC3Wfb": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does topical melatonin make you tired?",
+            "text": "<p>Nope — applying melatonin to the scalp doesn’t cause drowsiness. It stays local to the skin and doesn’t affect your sleep cycle.<br/><br/></p>"
+          }
+        },
+        "faq_item_c7eBCh": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Is it safe for sensitive scalps?",
+            "text": "<p>Melatonic is formulated to be gentle and non-irritating. However, if you have a history of scalp sensitivity, we recommend patch testing before full use.<br/><br/></p>"
+          }
+        },
+        "faq_item_fRXGzV": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does it really work?",
+            "text": "<p>Melatonic combines topical melatonin with proven plant extracts to support hair density, reduce shedding, and stimulate regrowth — backed by real customer results.<br/><br/></p>"
+          }
+        },
+        "faq_item_iwTWnq": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Will it make my hair greasy?",
+            "text": "<p>No. Melatonic is fast-absorbing and water-based — no residue and no greasy feel.<br/><br/></p>"
+          }
+        },
+        "faq_item_9FHWqn": {
+          "type": "faq_item",
+          "settings": {
+            "title": "Does it work for men and women?",
+            "text": "<p>Yes, it’s designed to be effective and safe for all genders dealing with hair thinning or loss.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_Kif3d6",
+        "faq_item_wpkMqj",
+        "faq_item_iC3Wfb",
+        "faq_item_c7eBCh",
+        "faq_item_fRXGzV",
+        "faq_item_iwTWnq",
+        "faq_item_9FHWqn"
+      ],
+      "name": "FAQ Section (with image)",
+      "settings": {}
+    },
+    "custom_review_GfAPgy": {
+      "type": "custom-review",
+      "name": "Custom Review List",
+      "settings": {}
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "marquee_mn6g7p",
+    "banner_result_r7bNhR",
+    "product_banner_hpKz3U",
+    "video_slider_XL47WV",
+    "banner_compound_43dE8r",
+    "application_slider_CExgYL",
+    "faq_with_image_h6L8VQ",
+    "custom_review_GfAPgy",
+    "related-products"
+  ]
+}

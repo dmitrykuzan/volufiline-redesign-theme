@@ -1,0 +1,253 @@
+.application-slider {
+  margin-top: 2rem;
+}
+
+.application-slider__container {
+  display: flex;
+}
+
+.application-slider__wrapper {
+  width: 100%;
+}
+
+.application-slider__two-sliders {
+  width: 100%;
+}
+
+.application-slider__swiper-thumbnail {
+  max-width: 29rem;
+  margin-top: 2rem;
+}
+
+.application-slider__wrapper--mobile {
+  background-color: #F7F7F7;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.application-slider__swiper-image {
+  margin-top: 1rem;
+ 
+
+  .application-slider__slide-image {
+    display: flex;
+    max-height: 26rem;
+
+    img {
+      border-radius: 2rem;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+.application-slider__swiper-text {
+  margin-top: 3rem;
+
+  .before-after-slider__btns {
+    margin-top: 3rem;
+    justify-content: space-between;
+
+    .before-after-slider__btn {
+      width: 4rem;
+      height: 4rem;
+      transition: opacity 0.5s linear;
+    }
+
+    .swiper-button-disabled {
+      opacity: 0;
+    }
+  }
+
+  .application-slider__slide-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    /* .label {
+      font-weight: 900;
+      font-size: 2.4rem;
+      line-height: 110%;
+    } */
+
+    p {
+      margin: initial;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 155%;
+
+      span {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.swiper-slide-thumb-active {
+  .application-slider__slide-thumb-circle {
+    background-color: #E2E2E2;
+  }
+
+  .application-slider__slide-thumb-text {
+    opacity: 1;
+  }
+}
+
+.application-slider__slide-thumb {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.application-slider__slide-thumb-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0.1rem solid #404040;
+  width: 6rem;
+  height: 6rem;
+  transition: background-color 0.3s linear border 0.3s linear;
+  cursor: pointer;
+}
+
+.application-slider__slide-thumb-circle:hover {
+  border: 0.1rem solid #000;
+}
+
+.application-slider__slide-thumb-nubmer {
+  font-size: 2.2rem;
+}
+
+.application-slider__slide-thumb-text {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 450px) {
+  .application-slider__swiper-image {
+    .application-slider__slide-image {
+      max-height: 30rem;
+    }
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .application-slider__swiper-image {
+    .application-slider__slide-image {
+      max-height: 40rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .application-slider {
+    margin-top: 7rem;
+  }
+
+  .application-slider__two-sliders {
+    width: 50%;
+    padding-right: 1rem;
+  }
+
+  .application-slider__wrapper {
+    width: initial;
+  }
+
+  .application-slider__slide-thumb-circle {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .application-slider__swiper-thumbnail {
+    max-width: 42rem;
+    margin-top: initial;
+  }
+
+  .application-slider__swiper-image {
+    margin-top: initial;
+
+    .application-slider__slide-image {
+      max-height: 60rem;
+
+      img {
+        border-radius: 3rem;
+      }
+    }
+  }
+
+  .application-slider__wrapper--mobile {
+    width: initial;
+    border-radius: 3rem;
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .application-slider__wrapper--desktop {
+    width: 50%;
+    padding-left: 1rem;
+  }
+
+  .application-slider__swiper-text {
+    margin-top: 15rem;
+
+    .application-slider__slide-text {
+      /* .label {
+        font-size: 3.2rem;
+      } */
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .application-slider__swiper-text {
+    .before-after-slider__btns {
+      .before-after-slider__btn {
+        width: 5rem;
+        height: 5rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .application-slider__two-sliders {
+    padding-right: 2.5rem;
+  }
+
+ .application-slider__swiper-image {
+    .application-slider__slide-image {
+      max-height: 73rem;
+    }
+  } 
+
+  .application-slider__wrapper--desktop {
+    padding-left: 2.5rem;
+  }
+
+  .application-slider__wrapper--mobile {
+    padding: 5rem;
+  }
+
+  .application-slider__swiper-text {
+    margin-top: 20rem;
+
+     .application-slider__slide-text {
+      /* .label {
+        font-size: 3.4rem;
+      } */
+
+      p {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}

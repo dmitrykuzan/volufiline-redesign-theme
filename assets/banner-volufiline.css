@@ -1,0 +1,606 @@
+.banner-volufiline {
+  margin-top: 2rem;
+}
+
+.banner-volufiline__wrapper {
+  overflow: hidden;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+}
+
+
+.banner-volufiline__image {
+  height: 40rem;
+  display: flex;
+  position: relative;
+
+  .banner-volufiline__image-img {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .banner-volufiline__image-img-mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+.banner-volufiline__banner-btn {
+  position: absolute;
+  right: 1rem;
+  top: 2.8rem;
+  max-width: 15rem;
+  width: 100%;
+}
+
+.banner-volufiline-banner-logo {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  left: 2rem;
+  top: 2rem;
+}
+
+.banner-volufiline__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
+  padding-top: 3rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.banner-volufiline__text {
+  display:flex; 
+  flex-direction: column;
+}
+
+.banner-volufiline__title {
+  text-align: center;
+  margin: initial;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.banner-volufiline__price {
+  margin: initial;
+  text-align: center;
+}
+
+.banner-volufiline__description {
+  margin: initial;
+  line-height: 166%;
+}
+
+.banner-volufiline-image-sephora {
+  max-width: 23rem;
+  margin-top: 1rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.banner-volufiline__benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1rem;
+  gap: 0.5rem;
+
+  span {
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000;
+  }
+}
+
+.banner-volufiline__link {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 520px) {
+  .banner-volufiline__image {
+    height: 50rem;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .banner-volufiline__image {
+    height: 60rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .banner-volufiline__banner-btn {
+    bottom: 2rem;
+    left: 2rem;
+    top: initial;
+    right: initial;
+  }
+
+  .banner-volufiline__wrapper {
+    flex-direction: row;
+  }
+
+  .banner-volufiline__benefits {
+    span {
+      font-size: 5rem;
+    }
+  }
+
+  .banner-volufiline__image {
+    height: auto;
+    width: 100%;
+    max-width: 30rem;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (min-width: 830px) {
+   .banner-volufiline__image {
+    max-width: 34rem;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .banner-volufiline {
+    margin-top: 3rem;
+  }
+
+  .banner-volufiline__wrapper {
+    min-height: 42rem;
+    border-radius: 3rem;
+  }
+
+  .banner-volufiline__image {
+    width: 50%;
+    max-width: initial;
+
+    .banner-volufiline__image-img {
+      display: block;
+    }
+
+    .banner-volufiline__image-img-mobile {
+      display: none;
+    }
+  }
+
+  .banner-volufiline-banner-logo {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .banner-volufiline__benefits {
+    span {
+      font-size: 6.2rem;
+    }
+  }
+
+  .banner-volufiline__content {
+    width: 50%;
+  }
+
+  .banner-volufiline__text {
+    align-items: center;
+  }
+
+  .banner-volufiline-image-sephora {
+    max-width: 34rem;
+  }
+
+  .banner-volufiline__title {
+    font-size: 2.4rem;
+  }
+
+  .banner-volufiline__banner-btn {
+    max-width: 18rem;
+  }
+
+  .banner-volufiline__link {
+    margin-left: auto;
+  }
+
+  .banner-volufiline__price {
+    justify-content: flex-start;
+
+    .text {
+      font-size: 3.4rem;
+    }
+
+    .label {
+      font-size: 1.8rem;
+    }
+  }
+
+  .banner-volufiline__description {
+    text-align: start;
+    max-width: 42rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banner-volufiline__wrapper {
+    min-height: 55rem;
+  }
+  
+  .banner-volufiline__content {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    width: 45%;
+  }
+
+   .banner-volufiline__image {
+    width: 55%;
+    max-width: initial;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .banner-volufiline-image-sephora {
+    max-width: 42rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner-volufiline__title {
+    font-size: 2.6rem;
+  }
+  
+  .banner-volufiline__description {
+    font-size: 1.8rem;
+  }
+}
+
+
+/* banner with image */
+
+.banner-volufiline-image {
+  margin-top: 2rem;
+}
+
+.banner-volufiline-image__image {
+  display: none; 
+}
+
+.banner-volufiline-image__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-volufiline-image__blur {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0;
+  z-index: 1;
+  filter: blur(4rem);
+  mix-blend-mode: overlay;
+  will-change: transform;
+  transition: transform 0.2s linear, opacity 0.5s linear;
+  pointer-events: none;
+}
+
+.banner-volufiline-image__blur.show {
+  opacity: 1;
+}
+
+.banner-volufiline-image-logo {
+  max-width: 22rem;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.banner-volufiline-image-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  height: 100%;
+  gap: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-volufiline-image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  h3 {
+    margin: initial;
+    color: #fff;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+.banner-volufiline-image-link {
+  background-color: #fff;
+  border: initial;
+  color: #000;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 100%;
+  margin-top: 1rem;
+  font-weight: 400;
+  max-width: 25rem;
+  transition:  background-color 0.3s linear, color 0.3s linear;
+}
+
+.banner-volufiline-image-link:hover {
+  background-color: #000;
+  color: #fff;
+  border: initial;
+}
+
+.banner-volufiline-image__image, .banner-volufiline-image__image--mobile {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+}
+
+.banner-volufiline-image__image--mobile {
+  display: flex;
+  max-height: 45rem;
+}
+
+@media screen and (min-width: 575px) {
+  .banner-volufiline-image__image--mobile {
+    display: none;
+  }
+
+  .banner-volufiline-image__image {
+    display: flex; 
+    min-height: 45rem;
+    max-height: 65rem;
+  }
+
+  .banner-volufiline-image-logo {
+    max-width: 32rem;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .banner-volufiline-image {
+    margin-top: 7rem;
+  }
+
+  .banner-volufiline-image-logo {
+    max-width: 56rem;
+  }
+
+  .banner-volufiline-image__image, .banner-volufiline-image__image--mobile {
+    img {
+      border-radius: 3rem;
+    }
+  }
+
+  .banner-volufiline-image-content {
+    gap: 6rem;
+  }
+
+
+  .banner-volufiline-image-text {
+    h3 {
+      font-size: 2.8rem;
+    }
+  }
+
+  .banner-volufiline-image-link {
+    min-height: 5.5rem;
+    margin-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .banner-volufiline-image-text {
+    h3 {
+      font-size: 3.4rem;
+    }
+  }
+}
+
+/* banner with marquee */
+
+.banner-volufiline__content--marquee {
+  position: relative;
+  margin-left: initial;
+  margin-right: initial;
+
+  .banner-volufiline__link {
+    margin-left: initial;
+  }
+}
+
+.banner-volufiline__wrapper-marquee {
+  flex-direction: column-reverse;
+
+  .banner-volufiline__title {
+    text-align: start;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .banner-volufiline__wrapper-marquee {
+
+    .banner-volufiline__title {
+      max-width: 32rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .banner-volufiline__wrapper-marquee {
+     flex-direction: row;
+     max-height: 52rem;
+  }
+
+  .banner-volufiline__content--marquee {
+    padding-right: 13rem;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    .banner-volufiline__text  {
+      h2 {
+        text-align: start;
+        align-items: flex-start;
+      }
+    }
+
+    .banner-volufiline__link {
+      margin-right: auto;
+      margin-left: initial;
+    }
+  }
+}
+
+@media screen and (min-width: 1380px) {
+  .banner-volufiline__wrapper-marquee {
+     max-height: 60rem;
+  }
+
+  .banner-volufiline__content--marquee {
+    padding-right: 20rem;
+  }
+}
+
+@media screen and (min-width: 1580px) {
+  .banner-volufiline__wrapper-marquee {
+     max-height: 65rem;
+  }
+}
+
+.banner-volufiline__image-marquee {
+  height: 40rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .banner-volufiline__image-marquee {
+    max-width: initial;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .banner-volufiline__image-marquee {
+    height: auto;
+  }
+}
+
+/* marquee text */
+
+
+
+/* ticker text */
+.ticker-text__wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+
+    display: none;
+}
+
+@media screen and (min-width: 1023px) {
+ .ticker-text__wrapper {
+    height: 9rem;
+    top: 50%; 
+    position: absolute;
+    transform: translateY(-50%) rotate(-90deg);
+    right: -47rem;
+    width: 100rem; 
+    margin-left: initial;
+
+    display: block;
+  }
+}
+
+
+.ticker-text__list {
+  display: inline-block;
+  animation: marquee 50s linear infinite;
+}
+
+.ticker-text__item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: inline-block;
+  font-size: 3.2rem;
+  line-height: 125%;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1023px) {
+ .ticker-text__item {
+   font-size: 5rem;
+  }
+}
+
+.ticker-text__item-1 {
+  position: relative;
+  left: 0%;
+  animation: swap 50s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0)
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@keyframes swap {
+  0%, 50% {
+    left: 0%;
+  }
+  50.01%,
+  100% {
+    left: 100%;
+  }
+}

@@ -1,75 +1,171 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_GmkTFD": {
+      "type": "hero",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "product_yAjcV6": {
+          "type": "product",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "product": "volufiline-100"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "product_yAjcV6"
       ],
+      "name": "Hero",
+      "settings": {}
+    },
+    "marquee_yxUUWw": {
+      "type": "marquee",
+      "name": "Marquee",
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "padding_top": 30,
+        "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
+    "banner_melatonic_DVir6m": {
+      "type": "banner-volufiline",
+      "blocks": {
+        "product_hicLhd": {
+          "type": "product",
+          "settings": {
+            "product": "volufiline-100"
+          }
+        }
+      },
+      "block_order": [
+        "product_hicLhd"
+      ],
+      "name": "Banner Melatonic",
+      "settings": {}
+    },
+    "before_after_slider_TQD9nr": {
+      "type": "before-after-slider",
+      "blocks": {
+        "product_pbmgrj": {
+          "type": "product",
+          "settings": {
+            "product": "volufiline-100"
+          }
+        }
+      },
+      "block_order": [
+        "product_pbmgrj"
+      ],
+      "name": "Before After Slider",
+      "settings": {}
+    },
+    "banner_melatonic_marquee_3QjAwj": {
+      "type": "banner-volufiline__marquee",
+      "blocks": {
+        "product_qJLzFq": {
+          "type": "product",
+          "settings": {
+            "product": "volufiline-100"
+          }
+        }
+      },
+      "block_order": [
+        "product_qJLzFq"
+      ],
+      "name": "Banner with marquee",
+      "settings": {}
+    },
+    "video_slider_tEYznC": {
+      "type": "video-slider",
+      "blocks": {
+        "product_NfW986": {
+          "type": "product",
+          "settings": {
+            "product": "volufiline-100"
+          }
+        },
+        "video_slide_dta36Y": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/81905975eff140ae80eadccde63f741e.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-1.jpg?v=1752183385"
+          }
+        },
+        "video_slide_V8dagD": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/46acfd77a4554ce8b4ce278b1b2a7e35.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/TikDownloader.io_7190785312971361579_hd_-_frame_at_0m0s.jpg?v=1751911688"
+          }
+        },
+        "video_slide_FdhM8M": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/281c85fb662545f2a03b801f3cb53abf.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-3.jpg?v=1752183384"
+          }
+        },
+        "video_slide_zCVf9L": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/5ed3502086af42a8b4d5be12333fea43.mov",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-4.jpg?v=1752183385"
+          }
+        },
+        "video_slide_yhNeGA": {
+          "type": "video_slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6035cd5915d04d85a963732c8c67d533.mp4",
+            "poster_url": "https://cdn.shopify.com/s/files/1/0729/0565/4421/files/poster-5.jpg?v=1752183384"
+          }
+        }
+      },
+      "block_order": [
+        "product_NfW986",
+        "video_slide_dta36Y",
+        "video_slide_V8dagD",
+        "video_slide_FdhM8M",
+        "video_slide_zCVf9L",
+        "video_slide_yhNeGA"
+      ],
+      "name": "Video Review Slider",
+      "settings": {}
+    },
+    "review_slider_rwyybB": {
+      "type": "review-slider",
+      "blocks": {
+       
+      },
+    
+      "name": "Review Slider",
+      "settings": {}
+    },
+    "banner_melatonic_image_aqYLmV": {
+      "type": "banner-volufiline-image",
+      "blocks": {
+       
+      },
+      "block_order": [
+        "product_98RDxh"
+      ],
+      "name": "Banner only image",
+      "settings": {}
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "hero_GmkTFD",
+    "marquee_yxUUWw",
+    "banner_melatonic_DVir6m",
+    "before_after_slider_TQD9nr",
+    "banner_melatonic_marquee_3QjAwj",
+    "video_slider_tEYznC",
+    "review_slider_rwyybB",
+    "banner_melatonic_image_aqYLmV"
   ]
 }

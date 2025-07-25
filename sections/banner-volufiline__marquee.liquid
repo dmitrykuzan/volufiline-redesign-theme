@@ -1,0 +1,71 @@
+ {{ 'banner-volufiline.css' | asset_url | stylesheet_tag }}
+
+<section class="banner-volufiline page-width">
+  <div class="banner-volufiline__wrapper banner-volufiline__wrapper-marquee">
+    <div class="banner-volufiline__content banner-volufiline__content--marquee">
+      <div class="banner-volufiline__text">
+        <h2 class="banner-volufiline__title">Volume where you really need it.</h2>
+      </div>
+      <p class="banner-volufiline__description">
+       Our 100% pure Volufiline visibly plumps and restores fullness by stimulating fat cell volume—naturally lifting areas like undereyes, cheeks, and smile lines.
+      </p>
+
+      {% for block in section.blocks %}
+        {% if block.type == 'product' and block.settings.product %}
+          {% assign product = block.settings.product %}
+          <a class="banner-volufiline__link button-dark" href="{{ product.url }}">BUY VOLUFILINE Now</a>
+        {% endif %}
+      {% endfor %}
+
+      <div class="ticker-text__wrapper">
+        <div class="ticker-text__list">
+          <span class="ticker-text__item ticker-text__item-1"
+            > 100% Plant-Based • Silicone + Paraben Free • Cruelty Free • Vegan • </span
+          >
+          <span class="ticker-text__item ticker-text__item-2"
+            > 100% Plant-Based • Silicone + Paraben Free • Cruelty Free • Vegan • </span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-volufiline__image banner-volufiline__image-marquee">
+       <img
+        src="{{ 'banner-marquee.jpg' | asset_url }}"
+        width="760"
+        height="745"
+        alt="volufiline poster"
+        loading="lazy"
+      > 
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Banner with marquee",
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product link",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with marquee",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %} 

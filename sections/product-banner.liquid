@@ -1,0 +1,26 @@
+{{ 'product-banner.css' | asset_url | stylesheet_tag }}
+
+<section class="product-banner page-width">
+  <div class="product-banner__wrapper">
+    <div class="product-banner__content">
+      <h2 class="product-banner__title section-title-volufiline">Professional quality results at a fraction of the cost</h2>
+      <p class="product-banner__text"> You don’t need expensive fillers, lasers, or microneedling to see real results. Volufiline visibly plumps and smooths skin with daily use, no needles or appointments required. For less than the cost of one in-clinic treatment, you get months of results at home with a simple, affordable solution that actually works.</p>
+    </div>
+
+    <div class="product-banner__image">
+       <img src="{{ 'product-banner.jpg' | asset_url }}" width="755" height="755" loading="lazy"> 
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Banner",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Banner"
+    }
+  ]
+}
+{% endschema %} 

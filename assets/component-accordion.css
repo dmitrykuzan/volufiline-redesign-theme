@@ -11,7 +11,7 @@
 }
 
 .accordion .summary__title + .icon-caret {
-  height: calc(var(--font-heading-scale) * 0.6rem);
+  height: calc(var(--font-heading-scale) * 1rem);
 }
 
 .accordion + .accordion {
@@ -22,8 +22,8 @@
 .accordion {
   margin-top: 2.5rem;
   margin-bottom: 0;
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-top: 0.1rem solid #66645E;
+  border-bottom: 0.1rem solid #66645E;
 }
 
 .accordion__title {
@@ -32,6 +32,15 @@
   min-height: 1.6rem;
   margin: 0;
   word-break: break-word;
+  font-size: 1.8rem;
+  color: #66645E;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+  .accordion__title {
+   font-size: 2rem;
+  }
 }
 
 .accordion .svg-wrapper {
@@ -51,6 +60,10 @@
   word-break: break-word;
   overflow-x: auto;
   padding: 0 0.6rem;
+
+  p {
+    line-height: 133%;
+  }
 }
 
 .accordion__content img {

@@ -1,0 +1,83 @@
+{{ 'faq-with-image.css' | asset_url | stylesheet_tag }}
+
+<div class="faq-with-image page-width">
+  <div class="faq-with-image__wrapper">
+    <div class="faq-with-image__picture">
+      <img src="{{ 'banner-volufiline-img.jpg' | asset_url }}" width="790" height="580" loading="lazy" alt="HydroxyRx"> 
+    </div>
+    <div class="faq-with-image__content">
+      <div class="faq-with-image__titles">
+        <h2 class="section-title-volufiline">FAQ</h2>
+        <p>Find out more about Volufiline.</p>
+      </div>
+      <ul class="faq">
+        {% for block in section.blocks %}
+          <li class="faq__item" {{ block.shopify_attributes }}>
+            <h3 class="faq__item-title">{{ block.settings.title }}</h3>
+            <div class="faq__item-text">
+              <div class="faq__item-text-wrapper">
+                {{ block.settings.text }}
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const faqItems = document.querySelectorAll('.faq .faq__item');
+
+    faqItems.forEach(function (item) {
+      const title = item.querySelector('.faq__item-title');
+
+      if (title) {
+        title.addEventListener('click', function () {
+          item.classList.toggle('active');
+        });
+      }
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "FAQ Section (with image)",
+      "blocks": [
+        {
+          "type": "faq_item",
+          "settings": {
+            "title": "What Are Alkaloids?"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %} 

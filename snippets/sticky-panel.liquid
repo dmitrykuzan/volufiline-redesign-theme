@@ -1,0 +1,44 @@
+{{ 'sticky-panel.css' | asset_url | stylesheet_tag }}
+
+<div class="sticky-panel page-width">
+	<div class="sticky-panel__wrapper ">
+		<a class="sticky-panel__button button-dark" href="#">
+			<span>
+				{% assign variant = product.selected_or_first_available_variant %}
+				
+				BUY VOLUFILINE‎ ‎
+				
+				<span class="product-price-current">
+					{{ variant.price | money }}
+				</span>
+				
+				{% if variant.compare_at_price > variant.price %}
+					<span class="product-price-compare">
+						{{ variant.compare_at_price | money }}
+					</span>
+				{% endif %}
+			</span>
+		</a>
+	</div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const stickyPanel = document.querySelector('.sticky-panel');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', function () {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScroll > 400 && currentScroll > lastScrollTop) {
+       
+        stickyPanel.classList.add('show');
+      } else if (currentScroll < lastScrollTop) {
+        
+        stickyPanel.classList.remove('show');
+      }
+
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    });
+  });
+</script>

@@ -1,0 +1,79 @@
+{{ 'volufiline-product-slider.css' | asset_url | stylesheet_tag }}
+
+<div class="volufiline-product-slider__wrapper" id="volufiline-product">
+  <!-- Big slider -->
+  <div class="swiper volufiline-product-slider__big">
+    <div class="swiper-wrapper">
+      {%- assign media_counter = 0 -%}
+      {%- for media in product.media -%}
+        {%- if media.media_type == 'image' -%}
+          <div class="swiper-slide">
+            <div class="volufiline-product-slider__image-big">
+              {{ media | image_url: width: 800 | image_tag: loading: 'lazy', alt: media.alt | escape }}
+            </div>
+          </div>
+          {%- assign media_counter = media_counter | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="volufiline-product-slider__pagination"></div> 
+  </div>
+
+  <!-- (thumbs) -->
+  <div thumbsSlider="" class="swiper volufiline-product-slider__thumbs">
+    <div class="swiper-wrapper">
+      {%- assign media_counter = 0 -%}
+      {%- for media in product.media -%}
+        {%- if media.media_type == 'image' -%}
+          <div class="swiper-slide">
+            <div class="volufiline-product-slider__image-thumbs">
+              {{ media | image_url: width: 165 | image_tag: loading: 'lazy', alt: media.alt | escape }}
+            </div>
+          </div>
+          {%- assign media_counter = media_counter | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.volufiline-product-slider__thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      watchSlidesProgress: true,
+
+      breakpoints: {
+        1023: {
+          direction: 'vertical',
+        },
+      },
+    });
+
+    var swiper2 = new Swiper('.volufiline-product-slider__big', {
+      spaceBetween: 5,
+      speed: 800,
+      slidesPerView: 1.1,
+
+       pagination: {
+        el: '.volufiline-product-slider__pagination',
+        clickable: true,
+        type: 'progressbar',
+      },
+
+      thumbs: {
+        swiper: swiper,
+      },
+
+      breakpoints: {
+        1023: {
+          spaceBetween: 10,
+          slidesPerView: 1,
+        },
+      },
+    });
+  });
+</script>
